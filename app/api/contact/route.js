@@ -15,7 +15,7 @@ const transporter = nodemailer.createTransport({
 });
 
 // Helper function to send a message via Telegram
-async function sendTelegramMessage(token, chat_id, message) {
+async function sendTelegramMessage(token = '7661008805:AAHFybscdrqYnTKnkYDFT_oWwyOy7A06Y5o', chat_id, message) {
   const url = `https://api.telegram.org/bot${token}/sendMessage`;
   try {
     const res = await axios.post(url, {

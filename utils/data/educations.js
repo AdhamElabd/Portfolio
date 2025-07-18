@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Higher Secondary Certificate",
+    duration: "2019 - 2022",
+    institution: "El-Saaidya Schools For Men",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Bachelor’s Degree",
+    duration: "2022 - Present",
+    institution: "AutoTronics Engineering",
   },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
+  // {
+  //   id: 3,
+  //   title: "Secondary School Certificate",
+  //   duration: "2008 - 2018",
+  //   institution: "Baitus Saif Islamia Madrasah",
+  // }
 ]
